@@ -25,6 +25,7 @@ cat > "$MANAGER_CONFIG" <<'EOF'
 security_level = weak
 allow_git_url_install = true
 allow_pip_install = true
+allow_flagged_nodepack_install = true
 EOF
 echo "Wrote ComfyUI-Manager config: $MANAGER_CONFIG"
 
