@@ -73,6 +73,8 @@ jupyter lab \
   --ServerApp.token="$JUPYTER_TOKEN" \
   --ServerApp.password='' \
   --ServerApp.allow_remote_access=True \
+  --ServerApp.trust_xheaders=True \
+  --ServerApp.allow_origin_pat='^https://[a-zA-Z0-9-]+-8888\.proxy\.runpod\.net$' \
   > >(sed -u 's/^/[JupyterLab] /') 2>&1 &
 JUPYTER_PID=$!
 
