@@ -1,0 +1,12 @@
+**/__pycache__
+**/.git
+**/.venv
+**/venv
+**/models
+**/output
+**/input
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
